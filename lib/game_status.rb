@@ -16,7 +16,5 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    WIN_COMBINATIONS.include?(0,1,2)
-    WIN_COMBINATIONS.include?(3,4,5)
     
   end
