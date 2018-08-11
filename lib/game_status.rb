@@ -34,3 +34,6 @@ WIN_COMBINATIONS = [
     draw?(board) or won?(board) or full?(board)
   end
   
+  def winner(board)
+    
+  end
