@@ -37,5 +37,6 @@ WIN_COMBINATIONS = [
   def winner(board)
     winner = won?(board)
     if winner
+      puts "X"
     
   end
