@@ -36,6 +36,7 @@ WIN_COMBINATIONS = [
   
   def winner(board)
     winner = won?(board)
+    index = 
     if winner
       board[0]
     
