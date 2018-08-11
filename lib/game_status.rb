@@ -22,7 +22,8 @@ WIN_COMBINATIONS = [
       
     end
     
-    if board[combos[0]] == board[WIN_COMBINATIONS[1]] == board[WIN_COMBINATIONS[2]] 
+    if board[combos[0]] == board[combos[1]] && board[combos[2]] == board[combos[1]] && position_taken?(board, )
+  
       return 
     
   end
