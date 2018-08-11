@@ -23,8 +23,8 @@ WIN_COMBINATIONS = [
   end
   
   def full?(board)
-    board[index].all? do |spaces|
-    
+    WIN_COMBINATIONS.all? do |spaces|
+    board[spaces[0]] == board[spaces[1]] && board[spaces[2]] == board[spaces[3]] && board[spaces[4]]
   end
   end
   
