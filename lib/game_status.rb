@@ -22,7 +22,7 @@ WIN_COMBINATIONS = [
       
     end
     
-    if board[WIN_COMBINATIONS[0]] == "X" && board[WIN_COMBINATIONS[1]] == "X" && board[WIN_COMBINATIONS[2]] == "X"
+    if board[combos[0]] == board[WIN_COMBINATIONS[1]] == board[WIN_COMBINATIONS[2]] 
       return 
     
   end
