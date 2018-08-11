@@ -38,5 +38,6 @@ WIN_COMBINATIONS = [
     winner = won?(board)
     if winner
       puts "X"
+    end
     
   end
