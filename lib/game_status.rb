@@ -24,7 +24,7 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     WIN_COMBINATIONS.all? do |spaces|
-      spaces.
+      position_taken?(board, spaces[0])
     
   end
   end
