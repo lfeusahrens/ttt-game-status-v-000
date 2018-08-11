@@ -24,7 +24,7 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     .all? do |spaces|
-      board[spaces[0]]
+      board
     
   end
   end
