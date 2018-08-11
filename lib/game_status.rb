@@ -39,8 +39,7 @@ WIN_COMBINATIONS = [
     index = winner[0]
     if winner
       board[index]
-    else !!winner
-      nil
+    else nil
     
     end
     
