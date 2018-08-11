@@ -36,6 +36,6 @@ WIN_COMBINATIONS = [
   
   def winner(board)
     winner = won?(board)
-    !(winner[index].nil? || winner[index] == " ")
+    !(board[winner].nil? || board[winner] == " ")
     
   end
