@@ -35,5 +35,5 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    full?(board)
+    return full?(board)
   end
