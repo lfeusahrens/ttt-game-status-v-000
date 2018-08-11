@@ -24,7 +24,6 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     board.all?{|token| token == "X" || token == "O"}
-      position_taken?(board, token)
     
   end
   end
