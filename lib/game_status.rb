@@ -40,6 +40,7 @@ WIN_COMBINATIONS = [
     if winner
       board[index]
     else 
+      nil
     
     end
     
