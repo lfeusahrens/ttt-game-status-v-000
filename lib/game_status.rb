@@ -26,7 +26,6 @@ WIN_COMBINATIONS = [
     win_index_8 = win_combination[7]
     
     if board(win_index_1)
-      win_combination[0]
     end
     
   end
