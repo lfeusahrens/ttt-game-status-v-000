@@ -35,5 +35,6 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    
+    won?(board)
+    return token
   end
